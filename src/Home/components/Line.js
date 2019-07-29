@@ -15,8 +15,8 @@ export default class Line extends React.Component{
 
                 </View>
 
-                <Text>
-                    JUL 2019
+                <Text style={styles.txt}>
+                    COMMENTS REVIEW
                 </Text>
 
                 <View style={styles.line}>
@@ -39,8 +39,18 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
 
+    txt: {
+
+        fontFamily: 'montserrat',
+        fontSize: 15,
+        marginRight: 10,
+        marginLeft: 10
+
+
+    },
+
     line: {
-        width: 120,
+        width: 70,
         height: 1,
         backgroundColor: '#707070'
     }
