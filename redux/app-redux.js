@@ -4,6 +4,10 @@ import thunkMiddleware from 'redux-thunk';
 const initialState = {
 
     categories: [
+
+        {
+            id: -1,
+        },
         {
             id: 0,
             title: 'PUBLIC SERVICES',
@@ -19,7 +23,10 @@ const initialState = {
             id: 1,
             title: 'CIVIL PROTECTION',
             img: require('../src/Home/assets/civil.png'),
-            color: '#5C3BCA'
+            color: '#5C3BCA',
+            moreCategories: [
+
+            ]
         },
 
 
@@ -27,21 +34,30 @@ const initialState = {
             id: 2,
             title: 'ENVIROMENT',
             img: require('../src/Home/assets/enviroment.png'),
-            color: '#443BCA'
+            color: '#443BCA',
+            moreCategories: [
+
+            ]
         },
 
         {
             id: 3,
             title: 'HEALTH',
             img: require('../src/Home/assets/health.png'),
-            color: '#CA3B91'
+            color: '#CA3B91',
+            moreCategories: [
+
+            ]
         },
 
         {
             id: 4,
             title: 'RELIGION MINORITIES',
             img: require('../src/Home/assets/religion.png'),
-            color: '#3B70CA'
+            color: '#3B70CA',
+            moreCategories: [
+
+            ]
         },
 
         {
@@ -158,35 +174,50 @@ const initialState = {
             id: 6,
             title: 'SPORT',
             img: require('../src/Home/assets/sport.png'),
-            color: '#823BCA'
+            color: '#823BCA',
+            moreCategories: [
+
+            ]
         },
 
         {
             id: 7,
             title: 'CULTURE',
             img: require('../src/Home/assets/culture.png'),
-            color: '#5C3BCA'
+            color: '#5C3BCA',
+            moreCategories: [
+
+            ]
         },
 
         {
             id: 8,
             title: 'TRANSPORT',
             img: require('../src/Home/assets/transport.png'),
-            color: '#362C94'
+            color: '#362C94',
+            moreCategories: [
+
+            ]
         },
 
         {
             id: 9,
             title: 'YOUTH',
             img: require('../src/Home/assets/youth.png'),
-            color: '#CA3B91'
+            color: '#CA3B91',
+            moreCategories: [
+
+            ]
         },
 
         {
             id: 9,
             title: 'NGO\'S',
             img: require('../src/Home/assets/ngos.png'),
-            color: '#CA3B3B'
+            color: '#CA3B3B',
+            moreCategories: [
+
+            ]
         },
     ],
 
@@ -252,7 +283,7 @@ const initialState = {
                 id: 1,
                 img: require('../src/Opportuinities/assets/img4.png'),
                 title: 'PARK RECONSTRUCTION',
-                category: 'ENVIROMENT',
+                category: 'ENVIROMENT'
             },
 
 
